@@ -1,0 +1,21 @@
+_id: req_9e4170d76ccf42039c20f9d96fff2b1f
+type: Request
+parentId: wrk_0a0562649365498487deac0ec01f253a
+modified: 1612747022722
+created: 1612746373902
+url: "{{ _.base_url }}/drones"
+name: List Drones
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1611831698901.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

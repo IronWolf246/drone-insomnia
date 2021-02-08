@@ -1,0 +1,35 @@
+_id: req_cd55b071df8943f09b9c22c8fffa8067
+type: Request
+parentId: wrk_0a0562649365498487deac0ec01f253a
+modified: 1612751904109
+created: 1612746564843
+url: "{{ _.base_url }}/drones/5"
+name: Update Drone
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"image": "https://robohash.org/verovoluptatequia.jpg",
+    	"name": "No",
+    	"address": "955 Springview Junction",
+    	"battery": 80,
+    	"max_speed": "3.8",
+    	"average_speed": "11.6",
+    	"status": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5cd2b48345334e9d81840e314414b069
+authentication: {}
+metaSortKey: -1610021026797.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
