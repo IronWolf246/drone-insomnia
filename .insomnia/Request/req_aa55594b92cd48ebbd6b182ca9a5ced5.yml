@@ -1,7 +1,7 @@
 _id: req_aa55594b92cd48ebbd6b182ca9a5ced5
 type: Request
 parentId: wrk_0a0562649365498487deac0ec01f253a
-modified: 1612746432783
+modified: 1614526352773
 created: 1612737300099
 url: "{{ _.base_url }}/drones"
 name: Insert Drone
@@ -9,10 +9,10 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
     	"image": "https://robohash.org/verovoluptatequia.jpg",
-    	"name": "Suzann",
+    	"name": "QqzsrvbqWSXObtGNkgGLHASkbNXSTsZlmIYYKgfmksdQwnHftMLLbfmOKMizjBvSvavXdNLNPwfplgNfhgsVsVlXVbYunaJzcpxQltbLQBthMRCuAiYVqgEDJultKqamWanekIGiCaJoFapuyqyWvQTWXoPUvZZilUDAFuaZuSysnkvHYFnEYUasuaWdMGSqizaLRBIAaCprkeHgqmJwtMxYeoqahKdlcmItPGuWXGtqCKzMsJZFaMaPsXTsojo",
     	"address": "955 Springview Junction",
     	"battery": 80,
     	"max_speed": "3.8",
